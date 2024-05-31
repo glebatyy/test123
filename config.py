@@ -1,5 +1,3 @@
-# config.py
-
 import numpy as np
 import pygame
 
@@ -19,6 +17,11 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
 BACKGROUND_COLOR = (0, 153, 76)
+
+# Обновление изображения дерева на изображение города
+CITY_IMAGE = 'assets/city1.png'
+START_IMAGE = 'assets/start.png'
+DEST_IMAGE = 'assets/dest.png'
 TREE_IMAGES = [f'assets/tree{i}.png' for i in range(1, 8)]
 
 num_nodes = 10  # Изменено количество узлов
